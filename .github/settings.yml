@@ -75,6 +75,10 @@ labels:
     color: '#F4F4F4'
     description: Multiple issues in a single ticket
 
+  - name: misc/starter
+    color: '#F4F4F4'
+    description: ''
+
   - name: type/enhancement 🧙‍♂️
     color: '#a2eeef'
     description: Existing logic is duplicated, or reused. If new logic than type/feature!
