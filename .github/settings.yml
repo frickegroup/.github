@@ -87,33 +87,101 @@ labels:
     color: '#fbca04'
     description: Blocks live deployment of 2021 migration project
 
-  # - name: estimate/1
-  #   color: '#bbf7d0'
-  #   description: The issue has an effort of 1 story point.
+  - name: estimate/1
+    color: '#bbf7d0'
+    description: The issue has an effort of 1 story point (small effort).
 
-  # - name: estimate/2
-  #   color: '#86efac'
-  #   description: The issue has an effort of 2 story point.
+  - name: estimate/2
+    color: '#86efac'
+    description: The issue has an effort of 2 story points (small effort).
 
-  # - name: estimate/3
-  #   color: '#4ade80'
-  #   description: The issue has an effort of 3 story point.
+  - name: estimate/3
+    color: '#4ade80'
+    description: The issue has an effort of 3 story points (small effort).
 
-  # - name: estimate/5
-  #   color: '#22c55e'
-  #   description: The issue has an effort of 5 story point.
+  - name: estimate/5
+    color: '#22c55e'
+    description: The issue has an effort of 5 story points (small effort).
 
-  # - name: estimate/8
-  #   color: '#16a34a'
-  #   description: The issue has an effort of 8 story point.
+  - name: estimate/8
+    color: '#16a34a'
+    description: The issue has an effort of 8 story points (medium effort).
 
-  # - name: estimate/13
-  #   color: '#15803d'
-  #   description: The issue has an effort of 13 story point.
+  - name: estimate/13
+    color: '#15803d'
+    description: The issue has an effort of 13 story points (medium effort / 1 fulltime sprint).
 
-  # - name: estimate/20
-  #   color: '#166534'
-  #   description: The issue has an effort of 20 story point.
+  - name: estimate/20
+    color: '#166534'
+    description: The issue has an effort of 20 story points (big effort). 
+
+  - name: estimate/40
+    color: '#115029'
+    description: The issue has a big effort of 40 story points (needs to be splitted into smaller tasks). 
+
+  - name: tech/database
+    color: '#0d8bb9'
+    description: affects PostgreSQL data structure
+
+  - name: tech/api
+    color: '#0d8bb9'
+    description: affects APIs and business logic 
+
+  - name: tech/auth
+    color: '#0d8bb9'
+    description: affects the authentication process 
+
+  - name: tech/infrastructure
+    color: '#0d8bb9'
+    description: affects any infrastructure topic like hosting, deployment etc.
+
+  - name: tech/frontend
+    color: '#0d8bb9'
+    description: affects frontend programming
+
+  - name: tech/search
+    color: '#0d8bb9'
+    description: affects the search service (currently Elasticsearch)
+
+  - name: tech/analytics
+    color: '#0d8bb9'
+    description: for everything thats logging and reporting related, like Google Analytics, Metabase etc.
+
+  - name: rg/admin
+    color: '#b93b0d'
+    description: affects the Rep.Guide admintool
+
+  - name: rg/app
+    color: '#e94a10'
+    description: affects the Rep.Guide customer UI
+
+  - name: rg/marketing
+    color: '#f26b3a'
+    description: affects the Rep.Guide marketing website
+
+  - name: page/userprofile
+    color: '#f37d52'
+    description: affects Rep.Guide app userprofile pages
+
+  - name: page/machinefinder
+    color: '#f37d52'
+    description: affects Rep.Guide app machinefinder
+
+  - name: page/machineview
+    color: '#f37d52'
+    description: affects Rep.Guide app machineview page + subpages
+
+  - name: page/techdata
+    color: '#f37d52'
+    description: affects Rep.Guide app machine techdata view
+
+  - name: page/service
+    color: '#f37d52'
+    description: affects Rep.Guide app machine service view
+
+  - name: page/specialsearch
+    color: '#f37d52'
+    description: affects Rep.Guide app special search pages
 
   - name: size/XS
     color: '#f0abfc'
@@ -129,3 +197,15 @@ labels:
 
   - name: size/XL
     color: '#701a75'
+
+  - name: partner/traser
+    color: '#8bb90d'
+
+  - name: partner/jaltest
+    color: '#8bb90d'
+
+  - name: partner/deutz
+    color: '#8bb90d'
+
+  - name: partner/granit
+    color: '#8bb90d'
