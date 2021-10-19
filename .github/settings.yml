@@ -1,7 +1,7 @@
 labels:
-  - name: type/feature ✨
+  - name: 'type/feature ✨'
     color: '#FCEC04'
-    description: Is a request for new functionality. Must always accompanied by a priority label.
+    description: 'Is a request for new functionality. Must always accompanied by a priority label.'
 
   - name: 'priority/urgent'
     color: '#ca8a04'
@@ -19,9 +19,9 @@ labels:
     color: '#fde047'
     description: 'No visibility when this will be addressed. No timeline designated.'
 
-  - name: type/bug 🐛
+  - name: 'type/bug 🐛'
     color: '#EC0404'
-    description: Documents broken, incorrect, confusing behavior. Must always accompanied by a severity label.
+    description: 'Documents broken, incorrect, confusing behavior. Must always accompanied by a severity label.'
 
   - name: 'severity/blocker'
     color: '#991b1b'
@@ -113,11 +113,11 @@ labels:
 
   - name: estimate/20
     color: '#166534'
-    description: The issue has an effort of 20 story points (big effort). 
+    description: The issue has an effort of 20 story points (big effort, probably needs to be splitted into smaller tasks). 
 
   - name: estimate/40
     color: '#115029'
-    description: The issue has a big effort of 40 story points (needs to be splitted into smaller tasks). 
+    description: The issue has a big effort of 40 story points (definitely needs to be splitted into smaller tasks). 
 
   - name: tech/database
     color: '#0d8bb9'
@@ -208,4 +208,34 @@ labels:
     color: '#8bb90d'
 
   - name: partner/granit
+    color: '#8bb90d'
+
+  - name: partner/bosch
+    color: '#8bb90d'
+
+  - name: partner/carraro
+    color: '#8bb90d'
+
+  - name: partner/elringklinger
+    color: '#8bb90d'
+
+  - name: partner/grammer
+    color: '#8bb90d'
+
+  - name: partner/hoyer
+    color: '#8bb90d'
+
+  - name: partner/kotte
+    color: '#8bb90d'
+
+  - name: partner/varta
+    color: '#8bb90d'
+
+  - name: partner/zf
+    color: '#8bb90d'
+
+  - name: partner/claas
+    color: '#8bb90d'
+
+  - name: partner/cnh
     color: '#8bb90d'
