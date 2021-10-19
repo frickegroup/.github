@@ -120,67 +120,67 @@ labels:
     description: The issue has a big effort of 40 story points (definitely needs to be splitted into smaller tasks). 
 
   - name: tech/database
-    color: '#0d8bb9'
+    color: '#cee7f1'
     description: affects PostgreSQL data structure
 
   - name: tech/api
-    color: '#0d8bb9'
+    color: '#cee7f1'
     description: affects APIs and business logic 
 
   - name: tech/auth
-    color: '#0d8bb9'
+    color: '#cee7f1'
     description: affects the authentication process 
 
   - name: tech/infrastructure
-    color: '#0d8bb9'
+    color: '#cee7f1'
     description: affects any infrastructure topic like hosting, deployment etc.
 
   - name: tech/frontend
-    color: '#0d8bb9'
+    color: '#cee7f1'
     description: affects frontend programming
 
   - name: tech/search
-    color: '#0d8bb9'
+    color: '#cee7f1'
     description: affects the search service (currently Elasticsearch)
 
   - name: tech/analytics
-    color: '#0d8bb9'
+    color: '#cee7f1'
     description: for everything thats logging and reporting related, like Google Analytics, Metabase etc.
 
   - name: rg/admin
-    color: '#b93b0d'
+    color: '#f6b69f'
     description: affects the Rep.Guide admintool
 
   - name: rg/app
-    color: '#e94a10'
+    color: '#f6b69f'
     description: affects the Rep.Guide customer UI
 
   - name: rg/marketing
-    color: '#f26b3a'
+    color: '#f6b69f'
     description: affects the Rep.Guide marketing website
 
   - name: page/userprofile
-    color: '#f37d52'
+    color: '#fadacf'
     description: affects Rep.Guide app userprofile pages
 
   - name: page/machinefinder
-    color: '#f37d52'
+    color: '#fadacf'
     description: affects Rep.Guide app machinefinder
 
   - name: page/machineview
-    color: '#f37d52'
+    color: '#fadacf'
     description: affects Rep.Guide app machineview page + subpages
 
   - name: page/techdata
-    color: '#f37d52'
+    color: '#fadacf'
     description: affects Rep.Guide app machine techdata view
 
   - name: page/service
-    color: '#f37d52'
+    color: '#fadacf'
     description: affects Rep.Guide app machine service view
 
   - name: page/specialsearch
-    color: '#f37d52'
+    color: '#fadacf'
     description: affects Rep.Guide app special search pages
 
   - name: size/XS
@@ -199,43 +199,43 @@ labels:
     color: '#701a75'
 
   - name: partner/traser
-    color: '#8bb90d'
+    color: '#dceab6'
 
   - name: partner/jaltest
-    color: '#8bb90d'
+    color: '#dceab6'
 
   - name: partner/deutz
-    color: '#8bb90d'
+    color: '#dceab6'
 
   - name: partner/granit
-    color: '#8bb90d'
+    color: '#dceab6'
 
   - name: partner/bosch
-    color: '#8bb90d'
+    color: '#dceab6'
 
   - name: partner/carraro
-    color: '#8bb90d'
+    color: '#dceab6'
 
   - name: partner/elringklinger
-    color: '#8bb90d'
+    color: '#dceab6'
 
   - name: partner/grammer
-    color: '#8bb90d'
+    color: '#dceab6'
 
   - name: partner/hoyer
-    color: '#8bb90d'
+    color: '#dceab6'
 
   - name: partner/kotte
-    color: '#8bb90d'
+    color: '#dceab6'
 
   - name: partner/varta
-    color: '#8bb90d'
+    color: '#dceab6'
 
   - name: partner/zf
-    color: '#8bb90d'
+    color: '#dceab6'
 
   - name: partner/claas
-    color: '#8bb90d'
+    color: '#dceab6'
 
   - name: partner/cnh
-    color: '#8bb90d'
+    color: '#dceab6'
