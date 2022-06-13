@@ -17,4 +17,8 @@ jobs:
               frickegroup/repguide
               frickegroup/ui
               frickegroup/babylon
+              frickegroup/workers
+              frickegroup/rg-admin
+              frickegroup/rg-website
+              frickegroup/metabase
           token: ${{ secrets.FULL }}
