@@ -84,7 +84,7 @@
   description: The issue has an effort of 13 story points (medium effort / 1 fulltime sprint).
 - name: estimate/20
   color: '166534'
-  description: The issue has an effort of 20 story points (big effort, probably needs to be splitted into smaller tasks). 
+  description: The issue has an effort of 20 story points (big effort, needs to be splitted into smaller tasks). 
 - name: estimate/40
   color: '115029'
   description: The issue has a big effort of 40 story points (definitely needs to be splitted into smaller tasks). 
