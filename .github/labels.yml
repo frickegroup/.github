@@ -178,5 +178,5 @@
   color: '0F3042'
 - name: maintenance-hackaton
   color: 'F4BC16'
-- name: 'Needs Feedback to Customer or Colleague'
+- name: 'give-feedback-after-live'
   color: '49A4B9'
