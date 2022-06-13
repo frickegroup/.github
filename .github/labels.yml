@@ -174,3 +174,9 @@
   color: '#dceab6'
 - name: partner/cnh
   color: '#dceab6'
+- name: dependencies
+  color: '#0F3042'
+- name: maintenance-hackaton
+  color: '#F4BC16'
+- name: 'Needs Feedback to Customer / Colleague'
+  color: '#49A4B9'
