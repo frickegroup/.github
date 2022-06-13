@@ -1,0 +1,320 @@
+[
+  {
+    "name": "type/feature ✨",
+    "color": "FCEC04",
+    "description": "Is a request for new functionality. Must always accompanied by a priority label."
+  },
+  {
+    "name": "priority/urgent",
+    "color": "ca8a04",
+    "description": "Address asap regardless of team capacity. Target resolution 1 cycle."
+  },
+  {
+    "name": "priority/high",
+    "color": "eab308",
+    "description": "Address soon provide team capacity. Target resolution 2 cycle."
+  },
+  {
+    "name": "priority/medium",
+    "color": "facc15",
+    "description": "Adress after high priority items. Target resolution 3 cycle."
+  },
+  {
+    "name": "priority/low",
+    "color": "fde047",
+    "description": "No visibility when this will be addressed. No timeline designated."
+  },
+  {
+    "name": "type/bug 🐛",
+    "color": "EC0404",
+    "description": "Documents broken, incorrect, confusing behavior. Must always accompanied by a severity label."
+  },
+  {
+    "name": "severity/blocker",
+    "color": "991b1b",
+    "description": "The issue is blocking an impending release."
+  },
+  {
+    "name": "severity/critical",
+    "color": "DC2626",
+    "description": "The issue causes data loss, crashes or hangs salt processes, makes the system unresponsive."
+  },
+  {
+    "name": "severity/high",
+    "color": "EF4444",
+    "description": "The issue reports incorrect functionality, bad functionality, a confusing user experience."
+  },
+  {
+    "name": "severity/medium",
+    "color": "F87171",
+    "description": "The issue reports cosmetic items, formatting, spelling, colors."
+  },
+  {
+    "name": "type/duplicate",
+    "color": "F4F4F4",
+    "description": "The issue is a duplicate of another issue. The issue must be closed after getting this label."
+  },
+  {
+    "name": "type/upstream",
+    "color": "F4F4F4",
+    "description": "The issue is a result of an upstream issue."
+  },
+  {
+    "name": "type/expected",
+    "color": "F4F4F4",
+    "description": "The issue is a report of intended functionality. The issue must be closed after getting this label."
+  },
+  {
+    "name": "state/confirmed ✔️",
+    "color": "1e293b",
+    "description": "The issue is a bug and has been confirmed by an engineer."
+  },
+  {
+    "name": "state/regression 〽️",
+    "color": "1e293b",
+    "description": "The issue is a bug that breaks functionality known to work in previous releases."
+  },
+  {
+    "name": "state/blocked 🛑",
+    "color": "1e293b",
+    "description": "The issue is blocked until furhter notice."
+  },
+  {
+    "name": "state/pending ⏳",
+    "color": "1e293b",
+    "description": "The issue is still pending."
+  },
+  {
+    "name": "feedback/rfc",
+    "color": "4f46e5",
+    "description": ""
+  },
+  {
+    "name": "misc/collective 📦",
+    "color": "F4F4F4",
+    "description": "Multiple issues in a single ticket"
+  },
+  {
+    "name": "misc/starter",
+    "color": "F4F4F4",
+    "description": ""
+  },
+  {
+    "name": "type/enhancement 🧙‍♂️",
+    "color": "a2eeef",
+    "description": "Existing logic is duplicated, or reused. If new logic than type/feature!"
+  },
+  {
+    "name": "◼️ Live Blocker",
+    "color": "fbca04",
+    "description": "Blocks live deployment of 2021 migration project"
+  },
+  {
+    "name": "estimate/1",
+    "color": "bbf7d0",
+    "description": "The issue has an effort of 1 story point (small effort)."
+  },
+  {
+    "name": "estimate/2",
+    "color": "86efac",
+    "description": "The issue has an effort of 2 story points (small effort)."
+  },
+  {
+    "name": "estimate/3",
+    "color": "4ade80",
+    "description": "The issue has an effort of 3 story points (small effort)."
+  },
+  {
+    "name": "estimate/5",
+    "color": "22c55e",
+    "description": "The issue has an effort of 5 story points (small effort)."
+  },
+  {
+    "name": "estimate/8",
+    "color": "16a34a",
+    "description": "The issue has an effort of 8 story points (medium effort)."
+  },
+  {
+    "name": "estimate/13",
+    "color": "15803d",
+    "description": "The issue has an effort of 13 story points (medium effort / 1 fulltime sprint)."
+  },
+  {
+    "name": "estimate/20",
+    "color": "166534",
+    "description": "The issue has an effort of 20 story points (big effort, probably needs to be splitted into smaller tasks)."
+  },
+  {
+    "name": "estimate/40",
+    "color": "115029",
+    "description": "The issue has a big effort of 40 story points (definitely needs to be splitted into smaller tasks)."
+  },
+  {
+    "name": "tech/database",
+    "color": "cee7f1",
+    "description": "affects PostgreSQL data structure"
+  },
+  {
+    "name": "tech/api",
+    "color": "cee7f1",
+    "description": "affects APIs and business logic"
+  },
+  {
+    "name": "tech/auth",
+    "color": "cee7f1",
+    "description": "affects the authentication process"
+  },
+  {
+    "name": "tech/infrastructure",
+    "color": "cee7f1",
+    "description": "affects any infrastructure topic like hosting, deployment etc."
+  },
+  {
+    "name": "tech/frontend",
+    "color": "cee7f1",
+    "description": "affects frontend programming"
+  },
+  {
+    "name": "tech/search",
+    "color": "cee7f1",
+    "description": "affects the search service (currently Elasticsearch)"
+  },
+  {
+    "name": "tech/analytics",
+    "color": "cee7f1",
+    "description": "for everything thats logging and reporting related, like Google Analytics, Metabase etc."
+  },
+  {
+    "name": "rg/admin",
+    "color": "f6b69f",
+    "description": "affects the Rep.Guide admintool"
+  },
+  {
+    "name": "rg/app",
+    "color": "f6b69f",
+    "description": "affects the Rep.Guide customer UI"
+  },
+  {
+    "name": "rg/marketing",
+    "color": "f6b69f",
+    "description": "affects the Rep.Guide marketing website"
+  },
+  {
+    "name": "page/userprofile",
+    "color": "fadacf",
+    "description": "affects Rep.Guide app userprofile pages"
+  },
+  {
+    "name": "page/machinefinder",
+    "color": "fadacf",
+    "description": "affects Rep.Guide app machinefinder"
+  },
+  {
+    "name": "page/machineview",
+    "color": "fadacf",
+    "description": "affects Rep.Guide app machineview page + subpages"
+  },
+  {
+    "name": "page/techdata",
+    "color": "fadacf",
+    "description": "affects Rep.Guide app machine techdata view"
+  },
+  {
+    "name": "page/service",
+    "color": "fadacf",
+    "description": "affects Rep.Guide app machine service view"
+  },
+  {
+    "name": "page/specialsearch",
+    "color": "fadacf",
+    "description": "affects Rep.Guide app special search pages"
+  },
+  {
+    "name": "size/XS",
+    "color": "f0abfc"
+  },
+  {
+    "name": "size/S",
+    "color": "e879f9"
+  },
+  {
+    "name": "size/M",
+    "color": "c026d3"
+  },
+  {
+    "name": "size/L",
+    "color": "a21caf"
+  },
+  {
+    "name": "size/XL",
+    "color": "701a75"
+  },
+  {
+    "name": "partner/traser",
+    "color": "dceab6"
+  },
+  {
+    "name": "partner/jaltest",
+    "color": "dceab6"
+  },
+  {
+    "name": "partner/deutz",
+    "color": "dceab6"
+  },
+  {
+    "name": "partner/granit",
+    "color": "dceab6"
+  },
+  {
+    "name": "partner/bosch",
+    "color": "dceab6"
+  },
+  {
+    "name": "partner/carraro",
+    "color": "dceab6"
+  },
+  {
+    "name": "partner/elringklinger",
+    "color": "dceab6"
+  },
+  {
+    "name": "partner/grammer",
+    "color": "dceab6"
+  },
+  {
+    "name": "partner/hoyer",
+    "color": "dceab6"
+  },
+  {
+    "name": "partner/kotte",
+    "color": "dceab6"
+  },
+  {
+    "name": "partner/varta",
+    "color": "dceab6"
+  },
+  {
+    "name": "partner/zf",
+    "color": "dceab6"
+  },
+  {
+    "name": "partner/claas",
+    "color": "dceab6"
+  },
+  {
+    "name": "partner/cnh",
+    "color": "dceab6"
+  },
+  {
+    "name": "dependencies",
+    "color": "0F3042"
+  },
+  {
+    "name": "maintenance-hackaton",
+    "color": "F4BC16"
+  },
+  {
+    "name": "Needs Feedback to Customer / Colleague",
+    "color": "49A4B9"
+  }
+]
