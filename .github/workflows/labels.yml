@@ -13,4 +13,8 @@ jobs:
         with:
           repository: |
               frickegroup/apollo
+              frickegroup/agravistechnik-webapp
+              frickegroup/repguide
+              frickegroup/ui
+              frickegroup/babylon
           token: ${{ secrets.FULL }}
