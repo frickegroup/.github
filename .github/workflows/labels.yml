@@ -12,6 +12,7 @@ jobs:
       - uses: micnncim/action-label-syncer@v1
         with:
           repository: |
+              frickegroup/orga
               frickegroup/apollo
               frickegroup/agravistechnik-webapp
               frickegroup/repguide
