@@ -188,7 +188,7 @@
   color: 'EC0C5C'
 - name: 'needs-splitting'
   color: 'EC0C5C'
-- name: 'needs-prio'
+- name: 'needs-priority'
   color: 'EC0C5C'
 - name: 'needs-plan'
   color: 'EC0C5C'
