@@ -198,6 +198,8 @@
   color: 'e85d04'
 - name: 'moved-3x'
   color: 'dc2f02'
+- name: 'moved-4+'
+  color: 'dc2f02'
 - name: 'needs-milestone'
   description: 'Milestone has to be set directly. Should be in the next 3 weeks.'
   color: '0480E8'
