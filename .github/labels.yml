@@ -203,3 +203,5 @@
 - name: 'needs-milestone'
   description: 'Milestone has to be set directly. Should be in the next 3 weeks.'
   color: '0480E8'
+- name: 'alex-notouch'
+  color: '7C7C7C'
