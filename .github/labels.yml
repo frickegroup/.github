@@ -205,3 +205,5 @@
   color: '0480E8'
 - name: 'alex-notouch'
   color: '7C7C7C'
+- name: 'plugin/fleets'
+  color: '9BA15D'
