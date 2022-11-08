@@ -22,4 +22,5 @@ jobs:
               frickegroup/rg-admin
               frickegroup/rg-website
               frickegroup/metabase
+              frickegroup/granit-web-speech
           token: ${{ secrets.FULL }}
