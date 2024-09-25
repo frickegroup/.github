@@ -1,0 +1,9 @@
+on:
+  workflow_call:
+
+jobs:
+  slack: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: echo ${{ github.repository}}
