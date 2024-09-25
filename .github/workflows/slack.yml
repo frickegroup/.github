@@ -7,3 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: frickegroup/slack-notifications@main
+        with:
+          slack-token: ${{ secrets.FRIX_NOTIFICATION_BOT }}
