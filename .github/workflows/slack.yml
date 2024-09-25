@@ -2,8 +2,12 @@ on:
   workflow_call:
 
 jobs:
-  slack: 
+  slack:
+    name: Send Slack Notification 
     runs-on: ubuntu-latest
     steps:
-      - name: Test
-        run: echo ${{ github.repository}}
+      - run: echo ${{ github.repository}}
+      - run: echo ${{ github.event.issue.title }}
+      # - run: |
+      #     echo "Sending Slack Notification"
+      #     curl -L 'https://slack.com/api/chat.postMessage' -H 'Content-Type: application/json' -H 'Authorization: Bearer ${{ secrets.FRIX_NOTIFICATION_BOT }}' -d '{"channel": "C07NR13KX62","text": "Hello world :tada:"}'
