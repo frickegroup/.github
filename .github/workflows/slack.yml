@@ -6,9 +6,58 @@ jobs:
     name: Send Slack Notification 
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{ github.event }}
-      - run: echo ${{ github.event_name }}
-      - run: echo ${{ github.event_path }}
-      - run: |
-          echo "Sending Slack Notification"
-          curl -L 'https://slack.com/api/chat.postMessage' -H 'Content-Type: application/json' -H 'Authorization: Bearer ${{ secrets.FRIX_NOTIFICATION_BOT }}' -d '{"channel":"C07NR13KX62","blocks":[{"type":"section","text":{"type":"mrkdwn","text":"*NewGitHubIssueOpened!*\n\n*<${{github.event.issue.html_url}}|Issue#${{github.event.issue.number}}:${{github.event.issue.title}}>*\n*Description*:${{github.event.issue.body}}\n\n*Openedby:*${{github.event.issue.user.login}}"}},{"type":"divider"},{"type":"context","elements":[{"type":"mrkdwn","text":":calendar:*Openedon:*${{github.event.issue.created_at}}"}]},{"type":"actions","elements":[{"type":"button","text":{"type":"plain_text","emoji":true,"text":"ViewIssue"},"url":"${{github.event.issue.html_url}}","style":"primary"}]}]}'
+      - uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+        with:  
+          script: |
+            console.log(JSON.stringify(context.payload, null, 2));
+
+            fetch("https://slack.com/api/chat.postMessage", {
+              method: "POST",
+              headers: new Headers({
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${{ secrets.FRIX_NOTIFICATION_BOT }}`
+              }),
+              body: JSON.stringify({
+                "channel": "C07NR13KX62",
+                "blocks": [
+                  {
+                    "type": "section",
+                    "text": {
+                      "type": "mrkdwn",
+                      "text": `*New GitHub Issue Opened!*\n\n*<${context.payload.issue.html_url}|Issue #${context.payload.issue.number}: ${context.payload.issue.title}>*\n*Description*: ${context.payload.issue.issue.body}\n\n*Opened by:* ${context.payload.issue.user.login}`
+                    }
+                  },
+                  {
+                    "type": "divider"
+                  },
+                  {
+                    "type": "context",
+                    "elements": [
+                      {
+                        "type": "mrkdwn",
+                        "text": `:calendar: *Opened on:* ${context.payload.issue.created_at}`
+                      }
+                    ]
+                  },
+                  {
+                    "type": "actions",
+                    "elements": [
+                      {
+                        "type": "button",
+                        "text": {
+                          "type": "plain_text",
+                          "emoji": true,
+                          "text": "View Issue"
+                        },
+                        "url": context.payload.issue.html_url,
+                        "style": "primary"
+                      }
+                    ]
+                  }
+                ]
+              }),
+              redirect: "follow"
+            })
+              .then((response) => response.text())
+              .then((result) => console.log(result))
+              .catch((error) => console.error(error));
